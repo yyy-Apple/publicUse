@@ -10,7 +10,7 @@ export default function define(runtime, observer) {
 	main.builtin("FileAttachment",
 	             runtime.fileAttachments(name => fileAttachments.get(name)));
 	main.variable(observer()).define([ "md" ], function(md) {
-		return (md`# Sortable Work Year Requirement Visualization
+		return (md`### Sortable Work Year Requirement Visualization
 
 Use the dropdown menu to change the sort order.`)
 	});
@@ -51,8 +51,8 @@ Use the dropdown menu to change the sort order.`)
 	        "chart",
 	        [ "d3", "width", "height", "data", "x", "y", "xAxis", "yAxis" ],
 	        function(d3, width, height, data, x, y, xAxis, yAxis) {
-		        const svg =
-		            d3.create("svg").attr("viewBox", [ 0, 0, width, height ]);
+		        const svg = d3.create("svg").attr(
+		            "viewBox", [ 0, 0, width * 1.2, height * 1.2 ]);
 
 		        const bar = svg.append("g")
 		                        .attr("fill", "steelblue")
