@@ -1,0 +1,23 @@
+{
+    "name": "degree",
+    "children": [
+        {
+            "name": "bachelor",
+            "children": [
+                {"name": "bachelor", "value": 163},
+                {"name": "BS", "value": 860},
+                {"name": "BA", "value": 890}
+            ]
+        },
+        {
+            "name": "master",
+            "children": [
+                {"name": "master", "value": 80},
+                {"name": "MBA", "value": 71}
+            ]
+        },
+        {
+            "name": "PhD", "value": 8
+        }
+    ]
+}
