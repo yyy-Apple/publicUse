@@ -4,7 +4,7 @@ export default function define(runtime, observer) {
 	const fileAttachments = new Map([ [
 		"alphabet.csv",
 		new URL(
-			"./files/09f63bb9ff086fef80717e2ea8c974f918a996d2bfa3d8773d3ae12753942c002d0dfab833d7bee1e0c9cd358cd3578c1cd0f9435595e76901508adc3964bbdc",
+			"https://raw.githubusercontent.com/yyy-Apple/publicUse/master/workyeardata.csv",
 			import.meta.url)
 	] ]);
 	main.builtin("FileAttachment",
